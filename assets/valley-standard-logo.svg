@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Valley Standard Homes logo concept 03</title>
+  <desc id="desc">Stacked monogram badge with editorial wordmark.</desc>
+  <rect width="1200" height="420" fill="#f8f8f5"/>
+  <rect x="88" y="88" width="188" height="188" rx="20" fill="#233629"/>
+  <text x="182" y="200" text-anchor="middle" font-size="88" font-family="Georgia, 'Times New Roman', serif" fill="#f8f8f5">VS</text>
+  <text x="338" y="162" font-size="76" font-family="Georgia, 'Times New Roman', serif" fill="#233629">Valley</text>
+  <text x="338" y="240" font-size="76" font-family="Georgia, 'Times New Roman', serif" fill="#233629">Standard</text>
+  <text x="340" y="292" font-size="32" font-family="Arial, Helvetica, sans-serif" fill="#857d71" letter-spacing="5">HOMES</text>
+</svg>

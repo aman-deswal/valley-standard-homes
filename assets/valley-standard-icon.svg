@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Valley Standard Homes Gmail profile icon</title>
+  <desc id="desc">Square profile icon with dark green background, larger VS monogram, and an original classical laurel accent.</desc>
+  <defs>
+    <linearGradient id="goldLeaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3ddb0"/>
+      <stop offset="45%" stop-color="#d4b06d"/>
+      <stop offset="100%" stop-color="#9d7a42"/>
+    </linearGradient>
+    <linearGradient id="goldStem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0d39d"/>
+      <stop offset="100%" stop-color="#9a7441"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="180" fill="#233629"/>
+  <g transform="translate(-8 -12) scale(1.1)">
+    <path d="M640 314 C722 348, 780 423, 790 518" fill="none" stroke="url(#goldStem)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M675 333 C700 318, 723 321, 739 346 C714 356, 691 353, 675 333Z" fill="url(#goldLeaf)"/>
+    <path d="M709 365 C736 351, 759 358, 774 385 C748 394, 724 390, 709 365Z" fill="url(#goldLeaf)"/>
+    <path d="M738 408 C764 395, 786 402, 801 430 C777 439, 752 434, 738 408Z" fill="url(#goldLeaf)"/>
+    <path d="M758 458 C782 448, 801 457, 814 483 C792 490, 772 485, 758 458Z" fill="url(#goldLeaf)"/>
+    <path d="M771 509 C792 500, 809 510, 820 533 C799 540, 781 535, 771 509Z" fill="url(#goldLeaf)"/>
+    <path d="M666 365 C690 379, 699 401, 692 422 C668 412, 655 392, 666 365Z" fill="url(#goldLeaf)"/>
+    <path d="M698 407 C722 421, 731 443, 724 464 C700 454, 687 434, 698 407Z" fill="url(#goldLeaf)"/>
+    <path d="M724 453 C746 467, 754 487, 748 507 C726 499, 714 481, 724 453Z" fill="url(#goldLeaf)"/>
+    <path d="M744 501 C765 514, 771 532, 766 551 C746 544, 734 527, 744 501Z" fill="url(#goldLeaf)"/>
+  </g>
+  <text
+    x="500"
+    y="642"
+    text-anchor="middle"
+    font-size="440"
+    font-family="Georgia, 'Times New Roman', serif"
+    letter-spacing="4"
+    fill="#f8f8f5">VS</text>
+</svg>
