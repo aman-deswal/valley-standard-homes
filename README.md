@@ -86,6 +86,7 @@ function doPost(e) {
     "property_location",
     "owner_location",
     "owner_timing",
+    "contact_consent",
     "source",
   ];
 

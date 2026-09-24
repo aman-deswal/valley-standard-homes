@@ -962,9 +962,39 @@ label {
 }
 
 .full-field,
+.consent-field,
 .privacy-note,
 .form-status {
   grid-column: 1 / -1;
+}
+
+.consent-field {
+  align-items: flex-start;
+  background: rgba(248, 248, 245, 0.7);
+  border: 1px solid rgba(133, 125, 113, 0.16);
+  border-radius: 16px;
+  display: flex;
+  gap: 12px;
+  padding: 14px 15px;
+}
+
+.consent-field input {
+  accent-color: var(--green);
+  flex: 0 0 auto;
+  height: 18px;
+  margin: 2px 0 0;
+  min-height: 0;
+  padding: 0;
+  width: 18px;
+}
+
+.consent-field span {
+  color: var(--green);
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.45;
+  text-transform: none;
 }
 
 label > span {
@@ -1039,7 +1069,7 @@ textarea {
   margin: -4px 0 0;
 }
 
-.privacy-note {
+.contact-form .privacy-note {
   color: var(--taupe);
   font-size: 0.88rem;
   margin: 0;

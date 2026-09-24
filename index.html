@@ -331,7 +331,11 @@
               <option value="Not sure yet">Not sure yet</option>
             </select>
           </label>
-          <p class="privacy-note">By sending this note, you agree to be contacted about your owner inquiry. Do not include sensitive documents or a full property address in this first message.</p>
+          <label class="consent-field">
+            <input type="checkbox" name="contact_consent" value="yes" required>
+            <span>I agree to be contacted about my owner inquiry.</span>
+          </label>
+          <p class="privacy-note">Do not include sensitive documents or a full property address in this first message.</p>
           <button class="button primary" type="submit">
             <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M4 5.5h16v10H8l-4 3z" />
