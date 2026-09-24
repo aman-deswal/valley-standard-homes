@@ -512,38 +512,6 @@ h3 {
   padding-top: clamp(56px, 7vw, 88px);
 }
 
-.proof-strip {
-  background: var(--green);
-  color: var(--cream);
-  display: grid;
-  gap: 1px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  padding: 0 clamp(20px, 7vw, 96px);
-}
-
-.proof-strip article {
-  border-left: 1px solid rgba(248, 248, 245, 0.18);
-  display: grid;
-  gap: 8px;
-  padding: 26px 22px;
-}
-
-.proof-strip article:last-child {
-  border-right: 1px solid rgba(248, 248, 245, 0.18);
-}
-
-.proof-strip strong {
-  color: var(--cream);
-  font-family: var(--display-font);
-  font-size: clamp(1.32rem, 1.9vw, 1.9rem);
-  letter-spacing: -0.035em;
-  line-height: 1.08;
-}
-
-.proof-strip span {
-  color: rgba(248, 248, 245, 0.72);
-}
-
 .founder-section h2,
 .founder-section h3 {
   color: var(--cream);
@@ -1172,8 +1140,7 @@ textarea {
   .split,
   .contact-section,
   .area-layout,
-  .founder-section,
-  .proof-strip {
+  .founder-section {
     grid-template-columns: 1fr;
   }
 
@@ -1206,13 +1173,6 @@ textarea {
   .site-header {
     align-items: flex-start;
     gap: 18px;
-  }
-
-  .proof-strip article,
-  .proof-strip article:last-child {
-    border-left: 0;
-    border-right: 0;
-    border-top: 1px solid rgba(248, 248, 245, 0.18);
   }
 
   .cards,
