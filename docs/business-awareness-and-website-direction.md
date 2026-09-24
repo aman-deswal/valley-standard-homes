@@ -56,12 +56,12 @@ The site should build toward a calm, local, owner-focused resource hub rather th
 - `/services/renewals/`
 - `/services/owner-reporting/`
 - `/areas/` - Service-area hub
-- `/areas/happy-valley-or/`
-- `/areas/clackamas-or/`
-- `/areas/milwaukie-or/`
-- `/areas/southeast-portland-or/`
-- `/areas/west-linn-or/`
-- `/areas/lake-oswego-or/`
+- `/areas/happy-valley/`
+- `/areas/clackamas/`
+- `/areas/milwaukie/`
+- `/areas/portland/`
+- `/areas/west-linn/`
+- `/areas/lake-oswego/`
 - `/about/`
 - `/resources/`
 - `/contact/`

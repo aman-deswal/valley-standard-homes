@@ -810,7 +810,153 @@ h3 {
   border-radius: 999px;
   color: var(--cream);
   font-weight: 800;
+}
+
+.area-list a {
+  display: block;
   padding: 10px 14px;
+  text-decoration: none;
+}
+
+.area-list a:hover {
+  color: var(--gold);
+}
+
+.breadcrumb {
+  color: var(--taupe);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  font-weight: 800;
+  gap: 8px;
+  letter-spacing: 0.04em;
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+
+.breadcrumb a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+.area-page-hero {
+  border-bottom: 1px solid rgba(133, 125, 113, 0.18);
+  padding: clamp(48px, 7vw, 92px) clamp(20px, 7vw, 96px);
+}
+
+.area-page-hero h1 {
+  max-width: 14ch;
+}
+
+.area-page-hero .hero-copy {
+  max-width: 720px;
+}
+
+.area-layout {
+  align-items: start;
+  display: grid;
+  gap: clamp(34px, 5vw, 72px);
+  grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.55fr);
+}
+
+.area-main {
+  display: grid;
+  gap: 34px;
+}
+
+.area-panel,
+.question-panel,
+.area-cta {
+  background: var(--white);
+  border: 1px solid rgba(133, 125, 113, 0.18);
+  border-radius: 24px;
+  box-shadow: 0 12px 32px rgba(22, 32, 25, 0.08);
+  padding: clamp(24px, 3vw, 34px);
+}
+
+.area-panel h2,
+.question-panel h2,
+.area-cta h2 {
+  font-size: clamp(2rem, 3vw, 3.15rem);
+  margin-bottom: 18px;
+}
+
+.area-panel p,
+.area-panel li,
+.question-list li,
+.area-cta p {
+  color: var(--green-2);
+  font-size: 1.05rem;
+}
+
+.area-panel ul {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 0;
+  padding-left: 20px;
+}
+
+.question-list {
+  display: grid;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.question-list li {
+  border-top: 1px solid rgba(133, 125, 113, 0.16);
+  padding-top: 14px;
+}
+
+.area-sidebar {
+  display: grid;
+  gap: 18px;
+  position: sticky;
+  top: 112px;
+}
+
+.area-nav-card {
+  background: var(--green);
+  border-radius: 24px;
+  color: var(--cream);
+  padding: 26px;
+}
+
+.area-nav-card h2 {
+  color: var(--cream);
+  font-size: 1.8rem;
+  margin-bottom: 18px;
+}
+
+.area-nav-card a {
+  border-top: 1px solid rgba(248, 248, 245, 0.18);
+  color: var(--cream);
+  display: block;
+  font-weight: 800;
+  padding: 13px 0;
+  text-decoration: none;
+}
+
+.area-nav-card a:hover {
+  color: var(--gold);
+}
+
+.area-cta {
+  background:
+    radial-gradient(circle at top right, rgba(212, 176, 109, 0.2), transparent 36%),
+    var(--white);
+}
+
+.area-cta .button {
+  margin-top: 18px;
+}
+
+.link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
 }
 
 .resources-section {
@@ -963,6 +1109,7 @@ textarea {
   .hero,
   .split,
   .contact-section,
+  .area-layout,
   .founder-section,
   .proof-strip {
     grid-template-columns: 1fr;
@@ -977,6 +1124,10 @@ textarea {
     border-left: 0;
     border-right: 0;
     border-top: 1px solid rgba(248, 248, 245, 0.18);
+  }
+
+  .area-sidebar {
+    position: static;
   }
 
   .cards,
