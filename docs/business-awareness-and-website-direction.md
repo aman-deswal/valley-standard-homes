@@ -67,7 +67,7 @@ The site should build toward a calm, local, owner-focused resource hub rather th
 - `/contact/`
 - `/privacy/`
 
-Main navigation should expose normal crawlable links with owner-aligned labels such as For owners, Management services, Service areas, Why Valley Standard, Owner resources, and Join interest list once those routes exist.
+Main navigation should expose normal crawlable links with clear destination labels such as Who We Help, Management Services, Areas We Serve, Meet the Founder, Owner Resources, and Join Interest List once those routes exist.
 
 ## Homepage target
 
