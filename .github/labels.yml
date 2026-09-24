@@ -1,0 +1,58 @@
+# Import or mirror these labels in GitHub to keep the business operations board consistent.
+- name: "area: licensing"
+  color: "1d76db"
+  description: Oregon property manager license, course, exam, and OREA setup
+- name: "area: banking"
+  color: "0e8a16"
+  description: EIN, operating account, trust account, and financial rails
+- name: "area: insurance"
+  color: "fbca04"
+  description: E&O, general liability, workers comp, and insurance quotes
+- name: "area: google-business"
+  color: "5319e7"
+  description: Google Business Profile, reviews, maps, and local presence
+- name: "area: website"
+  color: "0052cc"
+  description: Website, form, domain, email, and lead capture
+- name: "area: leads"
+  color: "c5def5"
+  description: Owner leads, referral partners, networking, and follow-up
+- name: "area: vendors"
+  color: "bfdadc"
+  description: Maintenance, legal, accounting, insurance, software, and referral vendor bench
+- name: "area: compliance"
+  color: "b60205"
+  description: Legal, trust-account, owner/tenant docs, records, and regulatory requirements
+- name: "area: launch"
+  color: "d4c5f9"
+  description: Fall 2026 launch readiness and release sequencing
+- name: "area: finance-pricing"
+  color: "fef2c0"
+  description: Pricing, service package, budgets, and revenue model
+- name: "area: operations"
+  color: "ededed"
+  description: Operating cadence, project board hygiene, recurring workflows
+- name: "type: task"
+  color: "ededed"
+  description: Concrete work item with a definition of done
+- name: "type: decision"
+  color: "f9d0c4"
+  description: Decision record or tradeoff to preserve
+- name: "type: research"
+  color: "d876e3"
+  description: Research before deciding or executing
+- name: "type: recurring"
+  color: "c2e0c6"
+  description: Repeating operational process or reminder
+- name: "priority: high"
+  color: "b60205"
+  description: Critical path for compliance, launch, or revenue
+- name: "priority: medium"
+  color: "fbca04"
+  description: Important but not immediately blocking
+- name: "priority: low"
+  color: "0e8a16"
+  description: Nice-to-have or later-phase improvement
+- name: blocked
+  color: "000000"
+  description: Waiting on a dependency, external party, or decision

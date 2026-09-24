@@ -1,0 +1,53 @@
+name: Vendor setup
+description: Add or evaluate vendors for maintenance, insurance, accounting, legal, or business operations.
+title: "[Vendor] "
+labels:
+  - "type: task"
+  - "area: vendors"
+body:
+  - type: input
+    id: vendor-name
+    attributes:
+      label: Vendor name
+      placeholder: Company or contact name
+    validations:
+      required: true
+  - type: dropdown
+    id: vendor-category
+    attributes:
+      label: Vendor category
+      options:
+        - Handyman / general maintenance
+        - Plumbing
+        - Electrical
+        - HVAC
+        - Landscaping
+        - Cleaning
+        - Legal
+        - CPA / bookkeeping
+        - Insurance
+        - Software
+        - Realtor / referral partner
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: fit
+    attributes:
+      label: Why this vendor fits
+      description: Include service area, responsiveness, pricing, and any personal referral context.
+  - type: textarea
+    id: checks
+    attributes:
+      label: Setup checklist
+      value: |
+        - [ ] Contacted
+        - [ ] Service area confirmed
+        - [ ] Pricing / minimums captured
+        - [ ] Insurance / license info captured where relevant
+        - [ ] Added to vendor roster
+        - [ ] Follow-up cadence set
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes and links

@@ -11,6 +11,10 @@ This folder is a deployable one-page static website.
 - `assets/aman-deswal-headshot.jpg` - founder headshot
 - `CNAME` - custom domain for GitHub Pages
 - `.nojekyll` - tells GitHub Pages to publish the static files as-is
+- `.github/ISSUE_TEMPLATE/` - issue templates for the business operations board
+- `.github/labels.yml` - recommended labels for the business operations board
+- `docs/business-operations-project.md` - GitHub Project setup plan for running Valley Standard operations
+- `docs/starter-backlog.md` - starter backlog for non-duplicative business setup and Fall 2026 launch work
 
 ## Deploy on GitHub Pages
 
