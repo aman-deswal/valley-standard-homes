@@ -18,6 +18,7 @@ This folder is a deployable one-page static website.
 - `docs/business-awareness-and-website-direction.md` - core business facts, copy guardrails, and website roadmap
 - `docs/business-operations-project.md` - GitHub Project setup plan for running Valley Standard operations
 - `docs/starter-backlog.md` - starter backlog for non-duplicative business setup and Fall 2026 launch work
+- `.github/copilot-instructions.md` and `.github/pull_request_template.md` - guardrails that point future website/content work back to the business direction doc
 
 ## Deploy on GitHub Pages
 

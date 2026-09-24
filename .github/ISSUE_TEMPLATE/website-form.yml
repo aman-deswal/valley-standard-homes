@@ -32,6 +32,7 @@ body:
     attributes:
       label: Acceptance criteria
       placeholder: |
+        - Public copy is checked against docs/business-awareness-and-website-direction.md
         - Change is visible on the published site
         - Form behavior is tested
         - README/setup notes are updated if needed
