@@ -122,8 +122,23 @@ a {
 }
 
 .nav a {
+  border-radius: 999px;
   color: var(--green);
+  padding: 9px 11px;
   text-decoration: none;
+  transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.nav a:hover,
+.nav a:focus-visible {
+  background: rgba(212, 176, 109, 0.16);
+  color: var(--green);
+  transform: translateY(-1px);
+}
+
+.nav a:focus-visible {
+  outline: 2px solid rgba(212, 176, 109, 0.72);
+  outline-offset: 3px;
 }
 
 .mobile-menu {
