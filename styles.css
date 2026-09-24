@@ -114,7 +114,7 @@ a {
 
 .nav {
   display: flex;
-  gap: 20px;
+  gap: 18px;
   font-size: 0.95rem;
   position: relative;
   z-index: 1;
@@ -342,6 +342,24 @@ h3 {
   text-transform: uppercase;
 }
 
+.hero-quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.hero-quick-links a {
+  border-bottom: 1px solid rgba(35, 54, 41, 0.28);
+  color: var(--green);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.hero-quick-links a:hover {
+  color: var(--gold);
+}
+
 .hero-card {
   background: var(--white);
   border: 1px solid rgba(133, 125, 113, 0.16);
@@ -356,6 +374,32 @@ h3 {
   gap: 18px;
   justify-items: stretch;
   max-width: 430px;
+}
+
+.hero-photo-card {
+  background: var(--white);
+  border: 1px solid rgba(133, 125, 113, 0.16);
+  border-radius: 32px;
+  box-shadow: var(--shadow);
+  margin: 0;
+  overflow: hidden;
+}
+
+.hero-photo-card img {
+  aspect-ratio: 3 / 2;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hero-photo-card figcaption {
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  padding: 14px 18px 16px;
+  text-transform: uppercase;
 }
 
 .side-cta {
@@ -1230,6 +1274,10 @@ textarea {
   .hero-card {
     max-width: none;
     padding: 26px;
+  }
+
+  .hero-photo-card {
+    border-radius: 22px;
   }
 
   .hero-side {
