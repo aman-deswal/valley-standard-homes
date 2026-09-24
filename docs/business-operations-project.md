@@ -2,6 +2,8 @@
 
 This repo is the operating home for Valley Standard business setup and launch work. The website is already live as a static GitHub Pages site, so this project plan focuses on the business board, issue taxonomy, and starter backlog needed to run the business without duplicating work already completed in the earlier planning session.
 
+Live board: [Valley Standard Operations](https://github.com/users/aman-deswal/projects/4)
+
 ## Carry-forward context
 
 - Public brand direction is **Valley Standard**.
@@ -51,4 +53,3 @@ This repo is the operating home for Valley Standard business setup and launch wo
 - Open follow-up issues instead of expanding one issue beyond a single outcome.
 - Close issues only when the definition of done is satisfied and any source links or receipts are attached.
 - Avoid duplicating carry-forward completed work: brand selection, initial website build, domain setup, and starting the OREA application should be referenced as context, not reopened as new work.
-
