@@ -84,8 +84,7 @@ function doPost(e) {
     "name",
     "email",
     "property_location",
-    "current_status",
-    "owner_priorities",
+    "owner_timing",
     "source",
   ];
 
