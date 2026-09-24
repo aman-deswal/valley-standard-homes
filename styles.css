@@ -299,7 +299,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 30px;
+  margin-top: 34px;
 }
 
 .button {
@@ -337,15 +337,6 @@ h3 {
 .button.secondary {
   border: 1px solid rgba(35, 54, 41, 0.22);
   color: var(--green);
-}
-
-.launch-note {
-  color: var(--taupe);
-  font-size: clamp(1rem, 1.15vw, 1.18rem);
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  margin: 22px 0 0;
-  text-transform: uppercase;
 }
 
 .hero-quick-links {
