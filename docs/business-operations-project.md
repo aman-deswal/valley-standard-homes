@@ -33,7 +33,7 @@ This repo is the operating home for Valley Standard business setup and launch wo
 | Current sprint | Current iteration, Status not Done | Two-week execution view |
 | Launch readiness | Group by Launch phase | See the path to Fall 2026 launch |
 | Compliance lane | Area is Licensing, Banking, Insurance, or Compliance | Keep regulated work visible |
-| Leads and market presence | Area is Leads, Google Business Profile, Website / form, or Vendors | Track demand generation and referral work |
+| Leads and market presence | Area is Lead pipeline, Google Business Profile, Website / form, or Vendors | Track demand generation and referral work |
 | Blocked / waiting | Status is Waiting or Blocked | Weekly follow-up queue |
 
 ## Milestones / launch phases
