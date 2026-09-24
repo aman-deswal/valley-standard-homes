@@ -904,6 +904,7 @@ h3 {
   display: grid;
   gap: clamp(32px, 6vw, 80px);
   grid-template-columns: minmax(0, 0.8fr) minmax(300px, 0.9fr);
+  padding-bottom: clamp(34px, 4vw, 58px);
 }
 
 .contact-form {
