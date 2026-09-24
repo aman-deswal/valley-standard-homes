@@ -4,8 +4,10 @@
   --green-2: #304838;
   --cream: #f8f8f5;
   --sand: #e7dfd2;
+  --mist: #dbe8df;
   --taupe: #857d71;
   --gold: #d4b06d;
+  --rust: #ad4e31;
   --ink: #162019;
   --white: #ffffff;
   --shadow: 0 24px 70px rgba(22, 32, 25, 0.13);
@@ -112,7 +114,7 @@ a {
 
 .nav {
   display: flex;
-  gap: 24px;
+  gap: 20px;
   font-size: 0.95rem;
   position: relative;
   z-index: 1;
@@ -331,6 +333,15 @@ h3 {
   color: var(--green);
 }
 
+.launch-note {
+  color: var(--taupe);
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin: 18px 0 0;
+  text-transform: uppercase;
+}
+
 .hero-card {
   background: var(--white);
   border: 1px solid rgba(133, 125, 113, 0.16);
@@ -447,6 +458,38 @@ h3 {
   grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
   padding-bottom: clamp(56px, 7vw, 88px);
   padding-top: clamp(56px, 7vw, 88px);
+}
+
+.proof-strip {
+  background: var(--green);
+  color: var(--cream);
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 0 clamp(20px, 7vw, 96px);
+}
+
+.proof-strip article {
+  border-left: 1px solid rgba(248, 248, 245, 0.18);
+  display: grid;
+  gap: 8px;
+  padding: 26px 22px;
+}
+
+.proof-strip article:last-child {
+  border-right: 1px solid rgba(248, 248, 245, 0.18);
+}
+
+.proof-strip strong {
+  color: var(--cream);
+  font-family: var(--display-font);
+  font-size: clamp(1.32rem, 1.9vw, 1.9rem);
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+
+.proof-strip span {
+  color: rgba(248, 248, 245, 0.72);
 }
 
 .founder-section h2,
@@ -752,6 +795,28 @@ h3 {
   color: var(--cream);
 }
 
+.area-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+}
+
+.area-list li {
+  background: rgba(248, 248, 245, 0.1);
+  border: 1px solid rgba(248, 248, 245, 0.22);
+  border-radius: 999px;
+  color: var(--cream);
+  font-weight: 800;
+  padding: 10px 14px;
+}
+
+.resources-section {
+  background: var(--mist);
+}
+
 .contact-section {
   display: grid;
   gap: clamp(32px, 6vw, 80px);
@@ -864,6 +929,12 @@ textarea {
   margin: -4px 0 0;
 }
 
+.privacy-note {
+  color: var(--taupe);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
 .site-footer {
   align-items: center;
   border-top: 1px solid rgba(133, 125, 113, 0.18);
@@ -892,12 +963,20 @@ textarea {
   .hero,
   .split,
   .contact-section,
-  .founder-section {
+  .founder-section,
+  .proof-strip {
     grid-template-columns: 1fr;
   }
 
   .hero {
     min-height: auto;
+  }
+
+  .proof-strip article,
+  .proof-strip article:last-child {
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid rgba(248, 248, 245, 0.18);
   }
 
   .cards,

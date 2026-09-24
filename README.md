@@ -11,10 +11,14 @@ This folder is a deployable one-page static website.
 - `assets/aman-deswal-headshot.jpg` - founder headshot
 - `CNAME` - custom domain for GitHub Pages
 - `.nojekyll` - tells GitHub Pages to publish the static files as-is
+- `robots.txt` - crawl instructions for the production site
+- `sitemap.xml` - canonical URLs for the current production pages
 - `.github/ISSUE_TEMPLATE/` - issue templates for the business operations board
 - `.github/labels.yml` - recommended labels for the business operations board
+- `docs/business-awareness-and-website-direction.md` - core business facts, copy guardrails, and website roadmap
 - `docs/business-operations-project.md` - GitHub Project setup plan for running Valley Standard operations
 - `docs/starter-backlog.md` - starter backlog for non-duplicative business setup and Fall 2026 launch work
+- `.github/copilot-instructions.md` and `.github/pull_request_template.md` - guardrails that point future website/content work back to the business direction doc
 
 ## Deploy on GitHub Pages
 
@@ -59,6 +63,7 @@ Type: CNAME Name: www   Value: YOUR-GITHUB-USERNAME.github.io
 ## Notes
 
 - The site is intentionally marked "Coming Fall 2026" for the pre-launch period.
+- Public copy should follow `docs/business-awareness-and-website-direction.md` before any launch, service-page, area-page, resource, or onboarding work.
 - The contact form is ready for a Google Apps Script / Google Sheets endpoint. Until `data-sheet-endpoint` is filled in, it falls back to opening an email draft to `aman@valleystandardhomes.com`.
 - No third-party scripts, libraries, trackers, or fonts are used.
 
