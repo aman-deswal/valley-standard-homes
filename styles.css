@@ -51,7 +51,7 @@ a {
   right: 0;
   top: 0;
   backdrop-filter: blur(14px);
-  z-index: 10;
+  z-index: 50;
 }
 
 .header-olive {
@@ -80,6 +80,7 @@ a {
 .brand {
   align-items: center;
   display: inline-flex;
+  flex-shrink: 0;
   gap: 12px;
   min-width: 0;
   position: relative;
@@ -114,7 +115,7 @@ a {
 
 .nav {
   display: flex;
-  gap: 18px;
+  gap: clamp(12px, 1.4vw, 18px);
   font-size: 0.95rem;
   position: relative;
   z-index: 1;
@@ -181,18 +182,20 @@ a {
 }
 
 .mobile-menu-panel {
-  background: rgba(248, 248, 245, 0.98);
+  background: var(--cream);
   border: 1px solid rgba(133, 125, 113, 0.16);
   border-radius: 0 0 26px 26px;
   box-shadow: 0 24px 54px rgba(22, 32, 25, 0.14);
   display: grid;
   gap: 0;
   left: 0;
+  max-height: calc(100dvh - 84px);
+  overflow-y: auto;
   padding: 8px 24px 18px;
   position: fixed;
   right: 0;
   top: 84px;
-  z-index: 30;
+  z-index: 60;
 }
 
 .mobile-menu-panel a {
@@ -203,7 +206,8 @@ a {
   display: flex;
   font-weight: 800;
   justify-content: space-between;
-  padding: 16px 0;
+  min-height: 58px;
+  padding: 15px 0;
   text-decoration: none;
 }
 
@@ -223,10 +227,10 @@ a {
 }
 
 .hero {
-  align-items: center;
+  align-items: start;
   display: grid;
   gap: clamp(28px, 4vw, 56px);
-  grid-template-columns: minmax(620px, 1fr) minmax(320px, 0.62fr);
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.7fr);
   min-height: auto;
   padding: clamp(42px, 5.5vw, 72px) clamp(28px, 5.5vw, 72px) clamp(52px, 6vw, 84px);
 }
@@ -375,7 +379,9 @@ h3 {
   display: grid;
   gap: 18px;
   justify-items: stretch;
+  justify-self: end;
   max-width: 430px;
+  width: 100%;
 }
 
 .hero-photo-card {
@@ -1138,10 +1144,20 @@ textarea {
   padding: 28px clamp(20px, 7vw, 96px);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(340px, 0.62fr);
+  }
+
+  h1 {
+    font-size: clamp(3.35rem, 5.4vw, 4.85rem);
+  }
+}
+
+@media (max-width: 1040px) {
   .site-header {
-    align-items: flex-start;
-    gap: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .nav {
@@ -1163,6 +1179,33 @@ textarea {
 
   .hero {
     min-height: auto;
+    padding-top: clamp(34px, 6vw, 58px);
+  }
+
+  .hero-content,
+  .hero-copy {
+    max-width: 720px;
+  }
+
+  .hero-side {
+    justify-self: stretch;
+    max-width: 720px;
+  }
+
+  .area-sidebar {
+    position: static;
+  }
+
+  h1 {
+    font-size: clamp(3.15rem, 8.8vw, 5rem);
+    max-width: 12ch;
+  }
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    align-items: flex-start;
+    gap: 18px;
   }
 
   .proof-strip article,
@@ -1170,10 +1213,6 @@ textarea {
     border-left: 0;
     border-right: 0;
     border-top: 1px solid rgba(248, 248, 245, 0.18);
-  }
-
-  .area-sidebar {
-    position: static;
   }
 
   .cards,
@@ -1195,6 +1234,12 @@ textarea {
   .site-header {
     align-items: center;
     padding: 18px 24px;
+  }
+
+  .mobile-menu-panel {
+    inset: 76px 16px auto;
+    border-radius: 22px;
+    box-shadow: 0 18px 48px rgba(22, 32, 25, 0.18);
   }
 
   .header-olive {
@@ -1222,7 +1267,7 @@ textarea {
 
   .hero {
     gap: 34px;
-    padding: 36px 24px 52px;
+    padding: 34px 24px 52px;
   }
 
   .eyebrow {
@@ -1263,6 +1308,32 @@ textarea {
     margin-top: 26px;
   }
 
+  .hero-quick-links {
+    display: grid;
+    gap: 12px;
+  }
+
+  .hero-quick-links a {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(35, 54, 41, 0.16);
+    border-radius: 18px;
+    box-shadow: 0 10px 28px rgba(22, 32, 25, 0.07);
+    display: flex;
+    justify-content: space-between;
+    min-height: 56px;
+    padding: 15px 16px;
+    text-decoration: none;
+  }
+
+  .hero-quick-links a::after {
+    color: var(--gold);
+    content: "→";
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
   .button,
   .contact-form .button {
     min-height: 56px;
@@ -1280,6 +1351,12 @@ textarea {
 
   .hero-photo-card {
     border-radius: 22px;
+  }
+
+  .hero-photo-card figcaption {
+    font-size: 0.68rem;
+    line-height: 1.4;
+    padding: 12px 14px 14px;
   }
 
   .hero-side {
