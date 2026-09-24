@@ -1,0 +1,29 @@
+name: Decision record
+description: Record an operating, launch, pricing, compliance, or positioning decision.
+title: "[Decision] "
+labels:
+  - "type: decision"
+body:
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+      description: What did you decide?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What options, tradeoffs, or constraints led to this?
+    validations:
+      required: true
+  - type: textarea
+    id: implications
+    attributes:
+      label: Implications
+      description: What follow-up work, risks, or future revisit date should be tracked?
+  - type: textarea
+    id: links
+    attributes:
+      label: Related links or issues

@@ -1,0 +1,52 @@
+name: Compliance or legal task
+description: Track licensing, legal, trust-account, insurance, or regulatory work.
+title: "[Compliance] "
+labels:
+  - "type: task"
+  - "area: compliance"
+body:
+  - type: dropdown
+    id: compliance-area
+    attributes:
+      label: Compliance area
+      options:
+        - OREA property manager license
+        - Registered business name / LLC
+        - Trust account
+        - Management agreement
+        - Tenant / owner notices
+        - Insurance
+        - City business license
+        - Tax / accounting
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: requirement
+    attributes:
+      label: Requirement or risk
+      description: Describe the rule, requirement, or risk being addressed.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source or advisor
+      description: Link the official source, attorney/CPA/insurance contact, or decision record.
+  - type: textarea
+    id: action-plan
+    attributes:
+      label: Action plan
+      placeholder: |
+        - Confirm requirement
+        - Complete filing / review / setup
+        - Store evidence
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      placeholder: "Example: Requirement confirmed, evidence stored, and renewal/reminder tracked."
+    validations:
+      required: true

@@ -1,0 +1,57 @@
+name: Lead pipeline item
+description: Track an owner lead, referral source, or channel experiment.
+title: "[Lead] "
+labels:
+  - "type: task"
+  - "area: leads"
+body:
+  - type: dropdown
+    id: lead-type
+    attributes:
+      label: Lead type
+      options:
+        - Owner lead
+        - Referral partner
+        - Realtor / lender / CPA
+        - Happy Valley Business Alliance
+        - Website inquiry
+        - Google Business Profile
+        - Networking
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact or channel
+      placeholder: Name, organization, or channel
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage
+      options:
+        - Research
+        - Contact next
+        - Waiting
+        - Follow up
+        - Qualified
+        - Not now
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why this is worth tracking and what problem they may need solved.
+  - type: textarea
+    id: next-step
+    attributes:
+      label: Next step
+      placeholder: "Example: Send intro note after license/course is farther along."
+    validations:
+      required: true
+  - type: input
+    id: follow-up-date
+    attributes:
+      label: Follow-up date
+      placeholder: YYYY-MM-DD

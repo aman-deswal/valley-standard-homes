@@ -1,0 +1,43 @@
+name: Website or form update
+description: Track site, domain, email, analytics-light, or lead intake form work.
+title: "[Website] "
+labels:
+  - "type: task"
+  - "area: website"
+body:
+  - type: dropdown
+    id: website-area
+    attributes:
+      label: Website area
+      options:
+        - Copy / positioning
+        - Contact form
+        - Google Sheets endpoint
+        - Domain / DNS
+        - Email
+        - Accessibility
+        - Launch checklist
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Requested change
+      description: Describe what should change and why.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - Change is visible on the published site
+        - Form behavior is tested
+        - README/setup notes are updated if needed
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes and links

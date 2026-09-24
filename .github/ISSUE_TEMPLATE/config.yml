@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Valley Standard operating plan
+    url: "https://github.com/aman-deswal/valley-standard-homes/blob/main/docs/business-operations-project.md"
+    about: Review the board setup, labels, launch milestones, and starter backlog before opening a new operations issue.

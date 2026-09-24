@@ -1,0 +1,68 @@
+name: Business operations task
+description: Track a concrete Valley Standard business setup or operating task.
+title: "[Ops] "
+labels:
+  - "type: task"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for operating work that needs a clear owner, next action, and done state.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Licensing
+        - Banking
+        - Insurance
+        - Google Business Profile
+        - Website / form
+        - Lead pipeline
+        - Vendors
+        - Compliance
+        - Launch
+        - Finance / pricing
+        - Operations
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What should be true when this is complete?
+      placeholder: "Example: Business checking account is open and ready for operating expenses."
+    validations:
+      required: true
+  - type: textarea
+    id: next-actions
+    attributes:
+      label: Next actions
+      description: List the immediate steps, links, or calls needed.
+      placeholder: |
+        - Gather required documents
+        - Submit application
+        - Save confirmation link or receipt
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: How will you know this issue can close?
+      placeholder: "Example: Confirmation received, notes added, and any follow-up issue opened."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes and links
+      description: Add relevant URLs, receipts, decisions, or dependencies.
