@@ -45,7 +45,7 @@ a {
   display: flex;
   justify-content: space-between;
   left: 0;
-  overflow: hidden;
+  overflow: visible;
   padding: 16px clamp(20px, 5vw, 72px);
   position: sticky;
   right: 0;
@@ -142,6 +142,7 @@ a {
   height: 44px;
   justify-content: center;
   list-style: none;
+  position: relative;
   width: 44px;
 }
 
@@ -191,6 +192,7 @@ a {
   position: fixed;
   right: 0;
   top: 84px;
+  z-index: 30;
 }
 
 .mobile-menu-panel a {
