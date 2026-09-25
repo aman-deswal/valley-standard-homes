@@ -485,9 +485,18 @@ h3 {
 }
 
 .founder-copy p:not(.eyebrow),
-.founder-card p {
+.founder-card p:not(.promise-label) {
   color: rgba(248, 248, 245, 0.82);
   font-size: clamp(1.05rem, 1.35vw, 1.22rem);
+}
+
+.promise-label {
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  margin: 0 0 14px;
+  text-transform: uppercase;
 }
 
 .founder-email-note {
