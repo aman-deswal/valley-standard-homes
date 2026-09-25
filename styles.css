@@ -1004,6 +1004,13 @@ label > span {
   text-transform: uppercase;
 }
 
+label > span em {
+  color: var(--taupe);
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
 input,
 select,
 textarea {

@@ -83,6 +83,7 @@ function doPost(e) {
     "submitted_at",
     "name",
     "email",
+    "phone",
     "property_location",
     "owner_location",
     "owner_timing",
