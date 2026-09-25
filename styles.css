@@ -293,7 +293,7 @@ h3 {
   font-size: 1.42rem;
 }
 
-.hero-copy {
+.hero-content .hero-copy {
   background: rgba(212, 176, 109, 0.12);
   border: 1px solid rgba(212, 176, 109, 0.2);
   border-left: 4px solid rgba(212, 176, 109, 0.72);
@@ -306,7 +306,7 @@ h3 {
   padding: 15px 18px 16px;
 }
 
-.hero-copy strong {
+.hero-content .hero-copy strong {
   color: var(--gold-text);
   display: block;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -317,7 +317,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.hero-copy span {
+.hero-content .hero-copy span {
   color: var(--green);
   display: block;
   font-size: clamp(1.08rem, 1.28vw, 1.22rem);
@@ -1304,7 +1304,7 @@ textarea {
   }
 
   .hero-content,
-  .hero-copy {
+  .hero-content .hero-copy {
     max-width: 720px;
   }
 
@@ -1415,15 +1415,15 @@ textarea {
     line-height: 1.65;
   }
 
-  .hero-copy {
+  .hero-content .hero-copy {
     padding: 13px 15px;
   }
 
-  .hero-copy strong {
+  .hero-content .hero-copy strong {
     font-size: 0.78rem;
   }
 
-  .hero-copy span {
+  .hero-content .hero-copy span {
     font-size: 1.02rem;
   }
 
