@@ -83,9 +83,11 @@ function doPost(e) {
     "submitted_at",
     "name",
     "email",
+    "phone",
     "property_location",
-    "current_status",
-    "owner_priorities",
+    "owner_location",
+    "owner_timing",
+    "contact_consent",
     "source",
   ];
 

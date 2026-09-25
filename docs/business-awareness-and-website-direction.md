@@ -56,18 +56,18 @@ The site should build toward a calm, local, owner-focused resource hub rather th
 - `/services/renewals/`
 - `/services/owner-reporting/`
 - `/areas/` - Service-area hub
-- `/areas/happy-valley-or/`
-- `/areas/clackamas-or/`
-- `/areas/milwaukie-or/`
-- `/areas/southeast-portland-or/`
-- `/areas/west-linn-or/`
-- `/areas/lake-oswego-or/`
+- `/areas/happy-valley/`
+- `/areas/clackamas/`
+- `/areas/milwaukie/`
+- `/areas/portland/`
+- `/areas/west-linn/`
+- `/areas/lake-oswego/`
 - `/about/`
 - `/resources/`
 - `/contact/`
 - `/privacy/`
 
-Main navigation should expose normal crawlable links for Services, Areas served, About, Resources, and Contact once those routes exist.
+Main navigation should stay focused on the core owner journey: Management Services, Neighborhoods We Serve, About Us, and Join Interest List. Supporting sections such as Who We Help and Owner Resources can be reached through homepage content and CTAs rather than the global nav.
 
 ## Homepage target
 
@@ -78,7 +78,7 @@ Main navigation should expose normal crawlable links for Services, Areas served,
 - **Hero headline:** Your rental should feel looked after.
 - **Hero promise:** Local, attentive management for single-family homes across Happy Valley and the Portland area--built to protect the home, support the resident, and keep the owner informed.
 - **Launch note:** Portland-area homes · opening Fall 2026
-- **Proof:** Nine rental homes already under the founder's care, with nearby context for four owned, three self-managed, and six family rentals.
+- **Founder proof:** Keep the nine-home founder experience in the founder/about narrative rather than a standalone homepage proof strip, so the homepage stays concise.
 - **Core service pillars:** leasing and screening; care and coordination; owner visibility.
 - **Footer close:** A better standard for the home you own.
 
