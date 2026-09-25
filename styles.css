@@ -1145,10 +1145,6 @@ textarea {
 }
 
 @media (max-width: 1200px) {
-  .hero {
-    grid-template-columns: minmax(0, 1fr) minmax(380px, 0.7fr);
-  }
-
   h1 {
     font-size: clamp(3.35rem, 5.4vw, 4.85rem);
   }
